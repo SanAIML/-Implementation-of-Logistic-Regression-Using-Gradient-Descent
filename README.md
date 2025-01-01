@@ -24,6 +24,7 @@ Developed by: Sanchita Sandeep
 RegisterNumber:  24900172
 */
 ```
+```
 import pandas as pd
 import numpy as np
 data=pd.read_csv("C:\\Users\\admin\\Downloads\\Placement_Data.csv")
@@ -71,6 +72,7 @@ print("Actual:\n",y.values)
 xnew=np.array([[0,87,0,95,0,2,78,2,0,0,1,0]])
 y_prednew=predict(theta,xnew)
 print("Predicted Result:",y_prednew)
+```
 ## Output:
 ![logistic regression using gradient descent](sam.png)
 gender	ssc_p	ssc_b	hsc_p	hsc_b	hsc_s	degree_p	degree_t	workex	etest_p	specialisation	mba_p	status
